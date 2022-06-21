@@ -20,7 +20,7 @@ In your terminal, navigate to your current directory and
 
 run this code
 
-`git clone https://github.com/zmekonnen251//Enumerable.git`
+`git clone https://github.com/zmekonnen251/OOP-school-library.git`
 
 Locate the directory in your file explorer
 
