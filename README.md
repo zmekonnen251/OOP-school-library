@@ -1,7 +1,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Enumerable
+# OOP School Library
 
 > In this project we built how to use a module inside your class. For this you will create a class MyList and a module MyEnumerable
 
@@ -48,17 +48,6 @@ Built With - Ruby - Terminal - IRB - Rubocop (linters)
 - Twitter: [Twitter](https://twitter.com/mek_zela)
 - LinkedIn: [Zelalem G. Mekonnen](https://www.linkedin.com/in/zelalem-getachew/)
 
-👤 **Eshetu Melaku**
-
-- GitHub: [@Melaku05](https://github.com/Melaku05)
-- Twitter: [@Melaku05](https://twitter.com/melaku)
-- LinkedIn: [melaku-eshetu](https://www.linkedin.com/in/melaku-eshetu/)
-
-👤 **Sodiq Aderibigbe**
-
-- GitHub: [@deyemiobaa](https://github.com/deyemiobaa)
-- Twitter: [@deyemiobaa](https://twitter.com/deyemiobaa)
-- LinkedIn: [Sodiq Aderibigbe](https://linkedin.com/in/sodiqa)
 
 ## 🤝 Contributing
 
