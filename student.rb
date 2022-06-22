@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
 require_relative 'person'
 
+# Student class extends person class
 class Student < Person
-  def initialize(age,name,parent,parent_permission,classroom)
-    super(age,name,parent_permission)
+  def initialize(age, name, _parent, parent_permission, classroom)
+    super(age, name, parent_permission)
     @class_room = classroom
   end
 
@@ -10,5 +13,3 @@ class Student < Person
     "¯\(ツ)/¯"
   end
 end
-
-

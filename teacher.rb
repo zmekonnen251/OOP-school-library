@@ -1,8 +1,10 @@
-require_relative 'person'
+# frozen_string_literal: true
 
+require_relative 'person'
+# Teacher class extends person class
 class Teachear < Person
-  def initialize(age,name,parent_permission,specialization)
-    super(age,name,parent_permission)
+  def initialize(age, name, parent_permission, specialization)
+    super(age, name, parent_permission)
     @specialization = specialization
   end
 
