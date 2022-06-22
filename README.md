@@ -3,7 +3,11 @@
 
 # OOP School Library
 
-> In this project we built how to use a module inside your class. For this you will create a class MyList and a module MyEnumerable
+> OOP School Library app will allow you to:
+
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 
 ## Built With
