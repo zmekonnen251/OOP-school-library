@@ -9,6 +9,7 @@ class Person < Nameable
     @id = rand
     @name = name
     @parent_permission = parent_permission
+    @rents = []
   end
 
   def correct_name
