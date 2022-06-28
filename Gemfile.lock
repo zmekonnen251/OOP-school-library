@@ -3,6 +3,7 @@ GEM
   specs:
 
 PLATFORMS
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES
