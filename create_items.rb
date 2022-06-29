@@ -15,7 +15,7 @@ module CreateItems
 
     print 'Has parent permission? [Y/N]: '
 
-    parent_permission = ''
+    parent_permission = false
 
     case gets.chomp.downcase
     when 'y'
@@ -26,8 +26,8 @@ module CreateItems
     else
       puts('please enter [Y/N]: ')
     end
-
-    new_student = Student.new(age, name, parent_permission)
+    id = Random.rand(1..1000)
+    new_student = Student.new(id, age, name, parent_permission)
     people << new_student
 
     puts('Person created successfully!')
@@ -40,8 +40,8 @@ module CreateItems
     name = gets.chomp
     print 'Specialization: '
     specialization = gets.chomp
-
-    new_teacher = Teacher.new(age, name, specialization)
+    id = Random.rand(1..1000)
+    new_teacher = Teacher.new(id, age, name, specialization)
     @people << new_teacher
     puts('Person created successfully!')
   end

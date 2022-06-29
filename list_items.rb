@@ -13,9 +13,9 @@ module ListItems
     puts('Rentals')
     puts('')
 
-    puts('There is no rentals for this person') if (rentals.find { |r| r.id == id }).nil?
-    rentals.each do |i|
-      puts("Date: #{i.date}, Book \"#{i.book.title}\" by #{i.book.author}") if i.person.id == id
+    puts('There is no rentals for this person') if (rentals.find { |rental| rental.person.id == id }).nil?
+    rentals.each do |rental|
+      puts("Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}") if rental.person.id == id
     end
 
     puts('')

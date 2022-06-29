@@ -1,16 +1,21 @@
+require 'json'
 require_relative 'create_items'
 require_relative 'list_items'
 require_relative 'utility'
+require './data_modules/load_data'
+require './data_modules/save_data'
 
 class App
   include CreateItems
   include Utility
   include ListItems
+  include LoadData
+  include SaveData
 
   def initialize
-    @books = []
-    @people = []
-    @rentals = []
+    @books = load_book
+    @people = load_people
+    @rentals = load_rentals(@books, @people)
   end
 
   def run
@@ -24,6 +29,7 @@ class App
       end
       run_case(@input)
     end
+    save_all(@books, @people, @rentals)
     puts("\nThank you for using our app!\n\n")
   end
 
